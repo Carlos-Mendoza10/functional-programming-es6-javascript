@@ -1,4 +1,4 @@
-# Make It Real - NAME OF THE PROJECT
+# Make It Real - Programación Funcional y ES6
 
 This is a solution to the Programación Funcional y ES6 project of the Make It Real course.
 
