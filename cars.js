@@ -112,7 +112,13 @@ function list(cars){
     let lista = cars.map(cars => `This ${cars.brand} from ${cars.model} costs $${cars.price}`)
     console.log(lista)
 }
+function bmwSum(cars){
+    let sumprice = cars.filter(cars => cars.brand === "BMW").reduce((suma,valor)=> suma+valor.price, 0)
+    console.log(sumprice)
+}
 
-ferraris(cars)// solucion ejercicio 1
-nineties(cars)// solucion ejercicio 2
-list(cars)// solucion ejercicio 3
+
+//ferraris(cars)// solucion ejercicio 2.1
+//nineties(cars)// solucion ejercicio 2.2
+//list(cars)// solucion ejercicio 2.3
+bmwSum(cars)
